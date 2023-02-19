@@ -1,0 +1,416 @@
+body{
+  margin: 0;
+  background-color: rgb(255, 240, 242);
+}
+
+
+
+.header{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: rgb(255, 240, 242);
+  padding: 10px;
+
+}
+.brand-name{
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Bree Serif";
+  font-weight: 700;
+}
+.nav-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item{
+  color: #000;
+  margin:10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.nav-item li{
+  list-style: none;
+
+
+}
+.nav-button{
+  background-color:#7c2622;
+  color:#fff;
+  width:95px;
+  border:none;
+  margin: 10px;
+  height: 30px;
+  font-family: "Playfair Display";
+}
+
+
+@media screen and (max-width:416px){
+  .nav-item{
+    font-size: 10px;
+  }
+  .header{
+    height: 10%;
+    max-width: 100%;
+  }
+  .rings-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .jewel-item{
+    font-size: 10px;
+  }
+  .ring{
+    width: 100%;
+  }
+  .img1{
+    width:280px;
+    height: 280px;
+  }
+  .section3{
+    padding:10px;
+    height: 40%;
+  }
+  .section4{
+    padding:10px;
+  }
+  .img2{
+    width:50%;
+  }
+  .img21{
+    width: 280px;
+    height: 100%;
+  }
+  .section5{
+    padding: 10%;
+  }
+  .imgs-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .min-img-container{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.section1{
+  margin-top:20px;
+  width: 100%;
+  height: 45%;
+}
+
+.image-container{
+  background-image: url("https://estilo-tendances.com/wp-content/uploads/2018/05/wearing-jewelry-800x484.jpeg");
+  width:100%;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container{
+  
+  text-align: center;
+  color:#fff;
+}
+
+.section2{
+  padding: 30px;
+  width:100%;
+}
+.main-heading{
+  font-style:italic;
+  font-size: 25px;
+  font-family: "Caveat";
+  text-align: center;
+  margin-bottom: 30px;
+  color:#000;
+  font-weight: 400;
+}
+.jewel-items{
+  display: flex;
+  justify-content: space-between;
+}
+.jewel-item1{
+  border-bottom: solid 3px #7c2622;
+
+}
+.jewel-item{
+  font-size: 15px;
+  font-family: "Consolas";
+  color:#000;
+  font-weight: 400;
+  font-family: "Caveat";
+}
+.jewel-item:hover,
+.jewel-item.active{
+    color:rgba(51, 25, 25, 0.93); 
+    border-bottom: solid 3px #7c2622;
+}
+.jewel-item.active::after,
+.jewel-item:hover::after{
+    height: 2px;
+    background: #7c2622;
+    width: 30%;
+    bottom:-4px;
+    left:20px;
+    content: "";
+}
+
+
+.rings-container{
+  display: flex;
+  margin-top: 20px;
+}
+.ring{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+.ring-name{
+  font-size: 20px;
+}
+.img-ring{
+  width: 250px;
+  height: 150px;
+}
+.section3{
+  padding-right:50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-heading1{
+  font-style:italic;
+  font-family: "Caveat";
+  font-size: 25px;
+  text-align: start;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.custom-jewellry-container{
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.img-cont{
+  width:45%;
+  margin-right: 20px;
+}
+.img1{
+  width: 100%;
+}
+.custom-jewelry-info{
+  width: 50%;
+}
+.heading1{
+  font-size: 25px;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  
+}
+
+.para1{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: rgb(174, 171, 171);
+}
+.nav-button1{
+  background-color:#7c2622;
+  color:#fff;
+  width:95px;
+  border:none;
+  height: 30px;
+  font-family: "Playfair Display";
+}
+.section4{
+  padding:30px;
+  height: 40%;
+}
+.section4-container{
+  display: flex;
+}
+.img2{
+  width:45%;
+
+}
+.img21{
+  width: 100%;
+}
+.info{
+  background-color: #7c2622;
+  width:50%;
+  padding:40px;
+  
+}
+.info1{
+  color:#fff;
+  font-size: 18px;
+}
+.para2{
+  color:#fff;
+  font-size: 15px;
+}
+.button1{
+  border:none;
+  color:#7c2622;
+  font-size: 12px;
+  height: 35px;
+  font-family: "Playfair Display";
+}
+.section5{
+  padding:30px;
+}
+.imgs-container{
+  display: flex;
+}
+.img5{
+  width:300px;
+  height: 300px;
+}
+.min-img-container{
+  display: flex;
+  flex-direction: column;
+}
+.img6{
+  width:130px;
+  height: 150px;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section6{
+  padding:30px;
+  height: 35%;
+}
+.section6-container{
+  display: flex;
+}
+.img-cont1{
+  width: 50%;
+  margin-right: 20px;
+}
+.img12{
+  width: 100%;
+  height: 300px;
+}
+.info-about-jewel{
+  width:45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer-section{
+  display: flex;
+  padding:30px;
+}
+.cont-info{
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+i{
+  font-size: 15px;
+  color:#7c2622;
+  margin: 15px;
+  
+}
+
+
+@media screen and (min-width:768px){
+  .section1{
+    height: 50%;
+  }
+  .section2{
+    height:50%;
+  }
+  .ring{
+    width:32%;
+  }
+  .img-ring{
+    width: 100%;
+
+  }
+  .main-heading{
+    font-size: 70px;
+  }
+  .jewel-item{
+    font-size: 35px;
+  }
+  .main-heading1{
+    font-size:70px ;
+  }
+  .heading1{
+    font-size: 50px;
+  }
+  .para1{
+    font-size: 35px;
+  }
+  .info1{
+    font-size: 40px;
+    font-family: "Caveat";
+    font-style: italic;
+  }
+  .para2{
+    font-size: 30px;
+  }
+  .imgs-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .img5{
+    width:35%;
+  }
+  .min-img-container{
+    width:20%;
+  }
+  .section6{
+    height: 40%;
+
+  }
+  .para1{
+    font-size:25px ;
+  }
+  .footer-section{
+    justify-content: space-between;
+
+  }
+  i{
+    font-size: 22px;
+  }
+  .brand-name{
+    font-size: 35px;
+  }
+  .contact-info{
+    font-size: 25px;
+    color:#000
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section6{
+    height: 45%;
+  }
+  .img12{
+    width:100%;
+    height: 90%;
+  }
+}
